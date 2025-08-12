@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Star, Users, Calendar, Sparkles } from 'lucide-react';
 import {useNavigate} from "react-router-dom";
-import mamaPic from '../../public/images/mamasPicture.jpg'
+// import mamaPic from '../../public/images/mamasPicture.jpg'
 import beginningPic from '../../public/images/ChatGPT Image Aug 12, 2025, 02_46_53 PM.png';
 import celebrityRecognitionPic from '../../public/images/ChatGPT Image Aug 12, 2025, 03_31_59 PM.png';
 import culturalInnovation from '../../public/images/ChatGPT Image Aug 12, 2025 at 04_03_18 PM.png';

@@ -26,7 +26,7 @@ const ServiceSelection = ({ bookingData, updateBookingData }: ServiceSelectionPr
 
   const services: Service[] = [
     // Hair Services
-    { id: 'hair-cut', name: 'Precision Hair Cut', description: 'Expert styling with consultation', duration: 60, price: 85, category: 'hair' },
+    { id: 'hair-cut', name: 'Hair Wash & Treatment', description: 'Expert styling with consultation', duration: 120, price: 85, category: 'hair' },
     { id: 'hair-color', name: 'Hair Color & Highlights', description: 'Professional coloring service', duration: 120, price: 150, category: 'hair' },
     { id: 'hair-treatment', name: 'Deep Conditioning Treatment', description: 'Nourishing hair therapy', duration: 45, price: 65, category: 'hair' },
     { id: 'hair-styling', name: 'Special Event Styling', description: 'Perfect for occasions', duration: 90, price: 120, category: 'hair' },

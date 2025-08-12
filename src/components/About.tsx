@@ -2,6 +2,12 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Star, Users, Calendar, Sparkles } from 'lucide-react';
 import {useNavigate} from "react-router-dom";
+import mamaPic from '../../../images/mamasPicture.jpg'
+import beginningPic from '../../../images/ChatGPT Image Aug 12, 2025, 02_46_53 PM.png'
+import celebrityRecognitionPic from '../../../images/ChatGPT Image Aug 12, 2025, 03_31_59 PM.png'
+import culturalInnovation from '../../../images/ChatGPT Image Aug 12, 2025 at 04_03_18 PM.png'
+import industryLeaders from '../../../images/ChatGPT Image Aug 12, 2025 at 05_03_18 PM.png'
+
 
 const About = () => {
   const navigate = useNavigate();
@@ -15,8 +21,8 @@ const About = () => {
     {
       icon: Users,
       number: "500+",
-      label: "A-List Celebrities",
-      description: "Trusted by Hollywood's finest"
+      label: "Customers Satisfied",
+      description: "Trusted by the best"
     },
     {
       icon: Star,
@@ -37,25 +43,25 @@ const About = () => {
       year: "2004",
       title: "The Beginning",
       description: "Started with a passion for celebrating natural hair and cultural expression through traditional braiding techniques.",
-      image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&h=400&fit=crop"
+      image: beginningPic
     },
     {
       year: "2010",
       title: "Celebrity Recognition",
       description: "First major breakthrough with A-list celebrities discovering our unique approach to cultural braid artistry.",
-      image: "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=600&h=400&fit=crop"
+      image: celebrityRecognitionPic
     },
     {
       year: "2015",
       title: "Cultural Innovation",
       description: "Pioneered fusion techniques that blend traditional African braiding with contemporary styles, honoring heritage while embracing modernity.",
-      image: "https://images.unsplash.com/photo-1549351236-caca0f174515?w=600&h=400&fit=crop"
+      image: culturalInnovation
     },
     {
       year: "2024",
       title: "Industry Leaders",
       description: "Today, we're recognized as the premier destination for authentic cultural expression through braiding artistry.",
-      image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600&h=400&fit=crop"
+      image: industryLeaders
     }
   ];
 
@@ -90,7 +96,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1560869713-bf165e08fe3d?w=600&h=700&fit=crop&auto=format"
+              src={mamaPic}
               alt="Master braider working on intricate cultural braiding patterns"
               className="w-full h-full object-cover rounded-lg shadow-2xl hover-lift"
               loading="lazy"

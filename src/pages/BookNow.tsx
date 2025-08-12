@@ -38,7 +38,7 @@ const BookNow = () => {
   const [bookingData, setBookingData] = useState<BookingData>({});
 
   const steps = [
-    { number: 1, title: 'Select Service', component: ServiceSelection },
+    { number: 1, title: 'Additional Service', component: ServiceSelection },
     { number: 2, title: 'Date & Time', component: DateTimeSelection },
     { number: 3, title: 'Confirm Details', component: BookingConfirmation },
     { number: 4, title: 'Personal Info', component: PersonalInfo },

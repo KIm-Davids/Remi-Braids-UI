@@ -28,7 +28,7 @@ const Navigation = () => {
               <Scissors className="h-6 w-6 text-salon-dark" />
             </div>
             <span
-                className="text-2xl font-bold text-black dark:text-amber-50"
+                className="text-2xl font-boldb text-black dark:text-black"
                 style={{
                   WebkitTextStroke: '0.2px pink',
 

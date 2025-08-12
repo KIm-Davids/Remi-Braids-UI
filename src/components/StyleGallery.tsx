@@ -22,42 +22,42 @@ const StyleGallery = () => {
       id: 1,
       title: 'Platinum Pixie',
       category: 'cuts',
-      image: 'https://images.unsplash.com/photo-1560869713-bf165e08fe3d?w=400&h=500&fit=crop',
+      image: 'https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2013/11/2-neat-scalp-braids-for-natural-hair.jpg?w=500&ssl=1',
       description: 'Bold and edgy short cut with platinum highlights'
     },
     {
       id: 2,
       title: 'Rose Gold Waves',
       category: 'colors',
-      image: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=400&h=500&fit=crop',
+      image: 'https://www.papaganlar.net/fashion-lifestyle-trends/wp-content/uploads/2023/12/2020-12-31-19.39.01-2476423779292432488_5529110470.jpg',
       description: 'Soft waves with rose gold color melting'
     },
     {
       id: 3,
       title: 'Romantic Updo',
       category: 'updos',
-      image: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=400&h=500&fit=crop',
+      image: 'https://www.thrivenaija.com/wp-content/uploads/2020/03/Mya-Monique.jpg',
       description: 'Elegant updo perfect for special occasions'
     },
     {
       id: 4,
       title: 'Beach Curls',
       category: 'curls',
-      image: 'https://images.unsplash.com/photo-1549351236-caca0f174515?w=400&h=500&fit=crop',
+      image: 'https://www.nairaland.com/attachments/16677012_5_jpegddf9c9a45551e218c4018d5c53e9f6bb',
       description: 'Effortless beach waves with natural texture'
     },
     {
       id: 5,
       title: 'Dutch Crown Braid',
       category: 'braids',
-      image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&h=500&fit=crop',
+      image: 'https://hips.hearstapps.com/hmg-prod/images/jourdan-dunn-wears-a-black-pleated-shoulder-off-cut-out-news-photo-1677599099.jpg?crop=0.88889xw:1xh;center,top&resize=1200:*',
       description: 'Intricate braided crown with modern twist'
     },
     {
       id: 6,
       title: 'Balayage Bob',
       category: 'colors',
-      image: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=400&h=500&fit=crop',
+      image: 'https://i.redd.it/cute-braid-hairstyles-for-kiddies-v0-xpedwgkaukec1.png?width=1024&format=png&auto=webp&s=c2cbcccda853a9e242a2613b6a40b560d8a015db',
       description: 'Chic bob with hand-painted balayage highlights'
     },
   ];

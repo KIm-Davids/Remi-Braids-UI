@@ -96,12 +96,12 @@ const About = () => {
             </p>
           </div>
           <div className="relative">
-            <img
-              src={mamaPic}
-              alt="Master braider working on intricate cultural braiding patterns"
-              className="w-full h-full object-cover rounded-lg shadow-2xl hover-lift"
-              loading="lazy"
-            />
+            {/*<img*/}
+            {/*  src={mamaPic}*/}
+            {/*  alt="Master braider working on intricate cultural braiding patterns"*/}
+            {/*  className="w-full h-full object-cover rounded-lg shadow-2xl hover-lift"*/}
+            {/*  loading="lazy"*/}
+            {/*/>*/}
           </div>
         </div>
 
